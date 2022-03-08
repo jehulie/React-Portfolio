@@ -1,0 +1,69 @@
+h2 {
+    padding: 5px;
+    margin: 20px 0 0 20px;
+    font-size: 2rem;
+    color: var(--black2);
+    font-weight: bolder;
+}
+
+.about-box {
+    float: left;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headshot #headshot {
+    float: left;
+    padding: 10px;
+    display: flex;
+    margin-right: 80px;
+}
+
+.bio-box {
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bio-box #bio {
+    float: right;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3px;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    font-weight: bolder;
+}
+
+#bio {
+    font-size: 1.75rem;
+    color: rgb(53, 70, 25);
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+ .about-wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 40px;
+ }
