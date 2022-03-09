@@ -1,10 +1,9 @@
 import React from "react";
 import './Header.module.css'
 
-const Header = () => {
+const Header = ({currentPage, handlePageChange}) => {
     return (
-        <div class="banner-image" style="background-image: url(./assets/images/Banner-Warehouse-Ceiling.jpeg); 
-        background-repeat: no-repeat;background-attachment: fixed; background-size:contain;">
+        <div class="banner-image">
             <div className="nav-wrapper pageTitle">
                 <header id="home">
                     <h1>Julie <span className="Chu">Chu</span></h1>
