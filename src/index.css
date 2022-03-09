@@ -20,8 +20,14 @@ html {
 }
 
 body {
-  background-color: var(--ivory);
   font-family: 'Ubuntu', sans-serif;
+  background-color: var(--ivory);
+  background-image: url('./assets/images/corrugated-white-medres.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size:cover;
+  background: rgba(244, 252, 228, 0.2);
+  backdrop-filter: blur(3px);
 }
 
 main {
@@ -67,15 +73,3 @@ p {
   transition: flex-basis 500ms linear;
   margin-bottom: 1.5rem;
 } */
-
-.blur {
-  /* // Make sure this color has an opacity of less than 1 */
-  background: rgba(244, 252, 228, 0.2);
-  backdrop-filter: blur(3px);
-} 
-
-.blur2 {
-  /* // Make sure this color has an opacity of less than 1 */
-  background: rgba(244, 252, 228, 0.4);
-  backdrop-filter: blur(10px);
-} 

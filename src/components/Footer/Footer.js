@@ -1,19 +1,23 @@
-import classes from './Footer.module.css'
+import React from 'react';
+import './Footer.module.css'
 
 const Footer = () => {
     return (
       <footer>
             <h4 id="contact">Contact</h4>
-            <section class="contact-info">
+            <section className="contact-info">
                 <ul>
                     <li>
-                        <u>555.555.5555</u>
+                    <a href="https://anthropology.uchicago.edu/people/faculty/julie-chu" target="_blank"/>
+                    <FontAwesomeIcon icon="fa-solid fa-chalkboard" />
                     </li>
                     <li>
-                        <u>juliechu@website.com</u>
+                    <a href="https://github.com/jehulie" target="_blank"/>
+                    <FontAwesomeIcon icon="fa-brands fa-github" />
                     </li>
                     <li>
-                        <u>Instagram</u>
+                        <a href="https://www.instagram.com/covidxlogistics/" target="_blank"/>
+                    <FontAwesomeIcon icon="fa-brands fa-instagram" />
                     </li>
                 </ul>
             </section>

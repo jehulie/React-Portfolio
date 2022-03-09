@@ -1,4 +1,4 @@
-import classes from './Contact.module.css'
+import './Contact.module.css'
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 

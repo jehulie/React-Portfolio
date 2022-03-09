@@ -1,4 +1,5 @@
-import classes from './About.module.css'
+import React from 'react';
+import './About.module.css'
 
 const About = () => {
    return (

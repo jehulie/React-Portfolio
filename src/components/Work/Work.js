@@ -1,4 +1,4 @@
-import classes from './Work.module.css'
+import './Work.module.css'
 
 const Work = () => {
     return (

@@ -5,16 +5,32 @@ import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
-const App = () => {
+export default function App () {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const displayPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Work') {
+      return <Work />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+  }
+
+}
+
+const handlePageChange = (page) => setCurrentPage (page);
+
     return (
       <div className="App">
-        <Header/>
-        <About />
-        <Work />
-        <Contact />
+        <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+      {displayPage()}
         <Footer />
       </div>
     );
   }
-
-export default App;

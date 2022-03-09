@@ -1,4 +1,5 @@
-import classes from './Header.module.css'
+import React from "react";
+import './Header.module.css'
 
 const Header = () => {
     return (
@@ -10,16 +11,40 @@ const Header = () => {
                     <nav role="navigation" aria-label="navigation menu">
                         <ul>
                             <li>
-                                <a href="#about">About</a>
+                                <a 
+                                href="#about"
+                                onClick={() => handlePageChange("About")}
+                                className={currentPage === "About" ? "current" : ""}
+                                >
+                                    About
+                                    </a>
                             </li>
                             <li>
-                                <a href="#work">Work</a>
+                                <a 
+                                href="#work"
+                                onClick={() => handlePageChange("Work")}
+                                className={currentPage === "Work" ? "current" : ""}
+                                >
+                                    Work
+                                    </a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a 
+                                href="#contact"
+                                onClick={() => handlePageChange("Contact")}
+                                className={currentPage === "Contact" ? "current" : ""}
+                                >
+                                    Contact
+                                    </a>
                             </li>
                             <li>
-                                <a href="#resume">Resume</a>
+                                <a 
+                                href="#resume"
+                                onClick={() => handlePageChange("Contact")}
+                                className={currentPage === "Contact" ? "current" : ""}
+                                >
+                                    Resume
+                                    </a>
                             </li>
                         </ul>
                     </nav>
