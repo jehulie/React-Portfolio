@@ -2,8 +2,11 @@ import classes from './Header.module.css'
 
 const Header = () => {
     return (
-      <header id="home">
-      <h1>Julie <span class="Chu">Chu</span></h1>
+        <div class="banner-image" style="background-image: url(./assets/images/Banner-Warehouse-Ceiling.jpeg); 
+        background-repeat: no-repeat;background-attachment: fixed; background-size:contain;">
+            <div className="nav-wrapper pageTitle">
+                <header id="home">
+                    <h1>Julie <span className="Chu">Chu</span></h1>
                     <nav role="navigation" aria-label="navigation menu">
                         <ul>
                             <li>
@@ -15,11 +18,15 @@ const Header = () => {
                             <li>
                                 <a href="#contact">Contact</a>
                             </li>
+                            <li>
+                                <a href="#resume">Resume</a>
+                            </li>
                         </ul>
                     </nav>
-
-      </header>
+                </header>
+            </div>
+        </div>
     );
-  }
+}
 
-  export default Header
+export default Header
