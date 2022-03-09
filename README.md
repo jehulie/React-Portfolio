@@ -20,19 +20,22 @@ Deployment updated on March 10, 2022
 ## Description
 
 Professional porfolio mockup with the following components:
-* The developer's name with a recent photo 
-
 * Navigation bar with links to four sections:
     1) About
     2) Work
     3) Contact
-    4) Resume
+    4) Resume  
+* The developer's name with a recent photo and brief bio in the "About" section 
 
 * In the "Work" section, each project listed with titled images
 
 * When each titled image is clicked, it links to that deployed application
 
-* Layout of website adapts to viewport
+* In the "Contact" section, there is form for name, email address, and sending a message
+
+* In the "Resume" section, there is a link to a downloadable resume
+
+* The footer contains icon links to Github, Instagram and the developer's profile on a third platform
 
 ---
 
