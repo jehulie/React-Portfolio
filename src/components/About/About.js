@@ -9,7 +9,7 @@ const About = () => {
             <div className="col-sm-5" id="about-box">
                <figure className="about-box">
                   <div className="headshot">
-                     <img id="headshot" src="assets/images/jchu.gif" alt="headshot of designer" />
+                     <img id="headshot" src="../../assets/images/jchu.gif" alt="headshot of designer" />
                   </div>
                </figure>
             </div>
