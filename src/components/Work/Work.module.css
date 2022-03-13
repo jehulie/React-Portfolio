@@ -1,7 +1,17 @@
-a {
-    color: var(--ivory);
-    text-decoration: none;
-}
+:root {
+    --ivory: #f2f0f0;
+    --black1: #212621;
+    --green: #537a6d;
+    --black2: #0b0d0c;
+    --blue: #55f0e3;
+  }
+  
+Container {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 h2 {
     padding: 5px;
@@ -11,108 +21,7 @@ h2 {
     font-weight: bolder;
 }
 
-.Project-Box {
-    display: flex;
-    width: 70%;
-    border: solid 5px var(--green);  
-}
-
-.Project-Box a {
-    display: flex;
-    margin-top: 20px;
-    /* width: 200px */
-    /* height: 200px */
-    /* border: solid 1px var(--black1) */
-}
-
-.Project-Box #Project1 {
-    position: relative;
-    bottom: 90px;
-    left: 3px;
-    padding: 20px;
-    font-size: 1.25rem;
-    color: var(--blue);
-    border: 2px solid var(--black1);
-    background-color: var(--green);
-}
-
-.Project-Box #Project2 {
-    position: relative;
-    bottom: 90px;
-    left: 3px;
-    padding: 20px;
-    font-size: 1.25rem;
-    color: var(--blue);
-    border: 2px solid var(--black1);
-    background-color: var(--green);
-}
-
-.Project-Box #Project3 {
-    position: relative;
-    bottom: 90px;
-    left: 3px;
-    padding: 20px;
-    font-size: 1.25rem;
-    color: var(--blue);
-    border: 2px solid var(--black1);
-    background-color: var(--green);
-}
-
-.Project-Box #Project4 {
-    position: relative;
-    bottom: 90px;
-    left: 3px;
-    padding: 20px;
-    font-size: 1.25rem;
-    color: var(--blue);
-    border: 2px solid var(--black1);
-    background-color: var(--green);
-}
-
-.Project-Box #Project5 {
-    position: relative;
-    bottom: 90px;
-    left: 3px;
-    padding: 20px;
-    font-size: 1.25rem;
-    color: var(--blue);
-    border: 2px solid var(--black1);
-    background-color: var(--green);
-}
-
-.Project-Box #covid-image {
-    width: 100%;
-    display: flex;
-    object-fit: cover;  
-}
-
-.Project-Box #box-tetris {
-    width: 100%;
-    display: flex;
-    object-fit: cover;  
-}
-
-.Project-Box #roadsides-icon {
-    width: 100%;
-    display: flex; 
-    object-fit: cover; 
-}
-
-.Project-Box #arsenal-hinges {
-    width: 100%;
-    /* height: auto; */
-    display: flex;
-    object-fit: cover; 
-}
-
-.Project-Box #prairie-cranes {
-    width: 100%;
-    /* height: auto; */
-    display: flex; 
-    object-fit: cover;
-}
-
-h3 {
+h5 {
     font-size: 1.75rem;
-    color: var(--green);
+    color: var(--black1);
 }

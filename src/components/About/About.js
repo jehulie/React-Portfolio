@@ -4,11 +4,11 @@ import profilePic from '../../assets/images/jchu.gif'
 
 const About = () => {
    return (
-      <section className="about-wrapper">
+      <section className="about-wrapper" style={{justifyContent: "center", marginLeft: 'auto', marginRight: 'auto'}}>
          <div className='row'>
             <h2 id="about">About</h2>
             <hr></hr>
-            <div className="col-sm-5" id="about-box" style={{margin: "40px"}}>
+            <div className="col-sm-4" id="about-box" style={{margin: "40px"}}>
                <figure className="about-box">
                   <div className="headshot">
                      <img id="headshot" src={profilePic} alt="headshot of designer" />

@@ -15,9 +15,9 @@ import weatherPic from '../../assets/images/Weather-Dashboard.png';
 
 const Work = () => {
     return (
-        <div>
+        <div style={{justifyContent: "center", marginLeft: 'auto', marginRight: 'auto'}}>
 
-        <Container className="container" style={{justifyContent: "center"}}>
+        <Container className="container" >
             <Row>
                 <h2 id="about">Work</h2>
                 <hr></hr>
