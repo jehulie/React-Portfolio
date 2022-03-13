@@ -5,12 +5,19 @@ import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import Resume from './components/Resume/Resume';
 import Footer from './components/Footer/Footer';
+import backgroundPic from '../src/assets/images/corrugated-white-medres.jpeg'
 
 function App () {
     return (
+        <div style={{backgroundImage: `url(${backgroundPic})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+            <div class="blur">
         <Router>
             <Header />
             <main>
+            <About />
+            {/* <Work /> */}
+            {/* <Contact /> */}
+            {/* <Resume /> */}
                 <Routes>
                     <Route path="/" element = {About} />
                     <Route path="/work" element = {Work} />
@@ -20,6 +27,8 @@ function App () {
             </main>
             <Footer />
         </Router>
+        </div>
+        </div>
     );
 }
 

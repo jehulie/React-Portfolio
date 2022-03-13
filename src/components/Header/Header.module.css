@@ -1,30 +1,37 @@
+:root {
+  --ivory: #f2f0f0;
+  --black1: #212621;
+  --green: #537a6d;
+  --black2: #0b0d0c;
+  --blue: #55f0e3;
+}
 .banner-image {
   padding: 60px 0px 60px 0px;
-  background-image: url(../../assets/images/Banner-Warehouse-Ceiling.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
+  height: 300px;
 }
 header {
-  padding: 10px;
+  padding: 20px;
   background-color: var(--green);
-  color: var(--ivory);
 }
 
 h1 {
   display: inline-block;
   font-size: 48px;
   margin-left: 50px;
+  color: var(--ivory);
 }
 
-h1 .Chu {
+span.Chu {
   color: var(--blue);
   margin-left: 5px;
 }
 
 nav {
   padding-top: 15px;
-  margin-right: 20px;
+  margin-right: 10px;
   float: right;
   font-size: 20px;
 }
@@ -38,7 +45,9 @@ ul li {
   margin-bottom: 20px;
 }
 
-a {
+p {
   color: var(--ivory);
   text-decoration: none;
+  padding-bottom: 30px;
+  font-size: 20px;
 }

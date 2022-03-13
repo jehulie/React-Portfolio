@@ -3,26 +3,20 @@ import './Footer.module.css'
 
 const Footer = () => {
     return (
-      <footer>
-            <h4 id="contact">Links</h4>
-            <section className="contact-info">
-                <ul>
-                    <li>
-                    <a href="https://anthropology.uchicago.edu/people/faculty/julie-chu" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-solid fa-chalkboard-user" alt="chalkboard icon"></i> </a>
-                    </li>
-                    <li>
-                    <a href="https://github.com/jehulie" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-github" alt="github icon"></i> </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/covidxlogistics/" target="_blank" rel="noopener noreferrer">
-                        <i className="fa-solid fa-file-arrow-down" alt="file icon"></i> </a>
-                    </li>
-                </ul>
-            </section>
-    </footer>
+        <footer id="main-footer" style={{ height: '15%'}}>
+            <div className="footer-content container">
+                    <a href="https://github.com/jehulie" target="_blank">
+                        <i className="fab fa-github fa-3x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/julieychu" target="_blank">
+                        <i className="fab fa-linkedin fa-3x" alt="chalkboard icon fa-3x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/covidxlogistics/" target="_blank">
+                        <i className="fab fa-instagram fa-3x"></i>
+                    </a>
+            </div>
+        </footer>
     );
-  }
+}
 
- export default Footer 
+export default Footer 

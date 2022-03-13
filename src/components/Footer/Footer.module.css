@@ -1,30 +1,22 @@
+:root {
+    --ivory: #f2f0f0;
+    --black1: #212621;
+    --green: #537a6d;
+    --black2: #0b0d0c;
+    --blue: #55f0e3;
+  }
+
 footer {
-    background-color: var(--blue);
+    background-color: #3bc0b5;;
+    color: var(--black2);
     padding: 20px;
     /* margin: 20px; */
 }
 
-h4 {
-    display: inline-flex;
-    padding: 15px;
-    margin-left: 20px;
-    font-size: 2rem;
-    color: var(--black2);
+.container {
+    margin: auto;
 }
 
-.contact-info {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.25rem;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    display: inline-block;
-    margin-bottom: 20px;
+i {
+    margin: auto;
 }

@@ -1,49 +1,41 @@
 import React from "react";
+import { LinkContainer } from 'react-router-bootstrap';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import bannerPic from '../../assets/images/Banner-Warehouse-Ceiling.jpeg'
+
 import './Header.module.css'
 
-const Header = ({currentPage, handlePageChange}) => {
+const Header = () => {
     return (
-        <div class="banner-image">
-            <div className="nav-wrapper pageTitle">
+        <div className="banner-image" style={{backgroundImage: `url(${bannerPic})`, height: '250px', width: '100%'}}>
+            <div className="nav-wrapper pageTitle" style={{width: '100%'}}>
                 <header id="home">
-                    <h1>Julie <span className="Chu">Chu</span></h1>
+                    <h1>Julie <span className="Chu" style={{color:'#55f0e3', marginLeft: '5px'}}>Chu</span></h1>
                     <nav role="navigation" aria-label="navigation menu">
                         <ul>
                             <li>
-                                <a 
-                                href="#about"
-                                onClick={() => handlePageChange("About")}
-                                className={currentPage === "About" ? "current" : ""}
-                                >
-                                    About
-                                    </a>
+                                <LinkContainer to={`/`}>
+                                    <Nav.Link><p>About</p></Nav.Link>
+                                </LinkContainer>
                             </li>
                             <li>
-                                <a 
-                                href="#work"
-                                onClick={() => handlePageChange("Work")}
-                                className={currentPage === "Work" ? "current" : ""}
-                                >
-                                    Work
-                                    </a>
+                            <li>
+                                <LinkContainer to={`/work`}>
+                                    <Nav.Link><p>Work</p></Nav.Link>
+                                </LinkContainer>
+                            </li>
                             </li>
                             <li>
-                                <a 
-                                href="#contact"
-                                onClick={() => handlePageChange("Contact")}
-                                className={currentPage === "Contact" ? "current" : ""}
-                                >
-                                    Contact
-                                    </a>
+                            <LinkContainer to={`/contact`}>
+                                    <Nav.Link><p>Contact</p></Nav.Link>
+                                </LinkContainer>
                             </li>
                             <li>
-                                <a 
-                                href="#resume"
-                                onClick={() => handlePageChange("Contact")}
-                                className={currentPage === "Contact" ? "current" : ""}
-                                >
-                                    Resume
-                                    </a>
+                            <LinkContainer to={`/resume`}>
+                                    <Nav.Link><p>Resume</p></Nav.Link>
+                                </LinkContainer>
                             </li>
                         </ul>
                     </nav>
