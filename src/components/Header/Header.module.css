@@ -7,9 +7,9 @@
 }
 .banner-image {
   padding: 60px 0px 60px 0px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: contain; */
   height: 300px;
 }
 header {

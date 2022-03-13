@@ -7,7 +7,7 @@
   }
 
 footer {
-    background-color: #3bc0b5;;
+    background-color: var(--blue);
     color: var(--black2);
     padding: 20px;
     /* margin: 20px; */
