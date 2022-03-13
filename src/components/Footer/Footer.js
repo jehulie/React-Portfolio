@@ -3,7 +3,7 @@ import './Footer.module.css'
 
 const Footer = () => {
     return (
-        <footer id="main-footer" style={{ height: '15%'}}>
+        <footer id="main-footer" style={{ height: '15%', textAlign:'center'}}>
             <div className="footer-content container">
                     <a href="https://github.com/jehulie" target="_blank">
                         <i className="fab fa-github fa-3x" style={{color: "black"}}></i>

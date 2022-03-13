@@ -7,7 +7,8 @@ const About = () => {
       <section className="about-wrapper">
          <div className='row'>
             <h2 id="about">About</h2>
-            <div className="col-sm-5" id="about-box">
+            <hr></hr>
+            <div className="col-sm-5" id="about-box" style={{margin: "40px"}}>
                <figure className="about-box">
                   <div className="headshot">
                      <img id="headshot" src={profilePic} alt="headshot of designer" />
@@ -15,7 +16,7 @@ const About = () => {
                </figure>
             </div>
             <div className="col bio-box">
-               <ul id="bio" style={{fontSize:'1.75rem'}}>
+               <ul id="bio" style={{fontSize:'1.75rem', margin: "40px"}}>
                   <li>Designs for Multimodal Fieldwork.</li>
                   <br/>
                      <li> Anthropology for the Web 2.0. </li>
@@ -25,7 +26,7 @@ const About = () => {
                   </div>
             </div>
       </section>
-   )
+   );
 }
 
 export default About
