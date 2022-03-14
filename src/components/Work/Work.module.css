@@ -5,7 +5,7 @@
     --black2: #0b0d0c;
     --blue: #55f0e3;
   }
-  
+
 Container {
     width: 85%;
     max-width: 1200px;
@@ -24,4 +24,9 @@ h2 {
 h5 {
     font-size: 1.75rem;
     color: var(--black1);
+}
+
+.card {
+    background-color: var(--green);
+    color: #484e4c
 }

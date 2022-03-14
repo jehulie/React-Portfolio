@@ -24,63 +24,63 @@ const Work = () => {
             </Row>
             <Row>
                 <Col>
-                    <div className="card">
-                        <img src={fieldGuidePic} className="card-img-top" alt="logistics artifacts during Covid" />
+                    <div className="card" style={{backgroundColor: "#94bbb6"}}>
+                        <img src={fieldGuidePic} className="card-img-top" style={{width: '99%'}} alt="logistics artifacts during Covid" />
                         <div className="card-body">
                             <h5 className="card-title">#Logistics in the Time of Covid</h5>
-                            <a href="https://www.fieldguidetologistics.com/" className="btn btn-primary">Application</a>
+                            <a href="https://www.fieldguidetologistics.com/" className="btn btn-warning">Website</a>
                         </div>
                     </div>
                 </Col>
                 <Col>
-                <div className="card">
-                        <img src={unBoxingPic} className="card-img-top" alt="Amazon shipping boxes" />
+                <div className="card" style={{backgroundColor: "#94bbb6"}}>
+                        <img src={unBoxingPic} className="card-img-top" style={{width: '99%'}} alt="Amazon shipping boxes" />
                         <div className="card-body">
                             <h5 className="card-title">Un/boxing Fulfillment</h5>
-                            <a href="https://allegralaboratory.net/un-boxing-fulfillment-a-field-guide-to-logistical-worlds/" className="btn btn-primary">Application</a>
+                            <a href="https://allegralaboratory.net/un-boxing-fulfillment-a-field-guide-to-logistical-worlds/" className="btn btn-warning">Website</a>
                         </div>
                     </div>
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <div className="card">
-                        <img src={roadsidesPic} className="card-img-top" alt="logistics graphic icons" />
+                    <div className="card" style={{backgroundColor: "#94bbb6"}}>
+                        <img src={roadsidesPic} className="card-img-top" style={{width: '99%'}} alt="logistics graphic icons" />
                         <div className="card-body">
                             <h5 className="card-title">Roadsides 007</h5>
-                            <a href="https://roadsides.net/call-for-papers/" className="btn btn-primary">Application</a>
+                            <a href="https://roadsides.net/call-for-papers/" className="btn btn-warning">Website</a>
                         </div>
                     </div>
                 </Col>
                 <Col>
-                <div className="card">
-                        <img src={curiosityCabPic} className="card-img-top" alt="Curiosity cabinet homepage" />
+                <div className="card" style={{backgroundColor: "#94bbb6"}}>
+                        <img src={curiosityCabPic} className="card-img-top" style={{width: '99%'}} alt="Curiosity cabinet homepage" />
                         <div className="card-body">
                             <h5 className="card-title">Curiosity Cabinet</h5>
-                            <a href="https://curiositycabinet.herokuapp.com/" className="btn btn-primary">Application</a>
-                            <a href="https://github.com/rkingjr/CuriosityCabinet" className="btn btn-primary">Github</a>
+                            <a href="https://curiositycabinet.herokuapp.com/" className="btn btn-warning">Website</a>
+                            <a href="https://github.com/rkingjr/CuriosityCabinet" className="btn" style={{backgroundColor: '#32f3af'}}> <i className="fab fa-github fa-1.5x" style={{color: "black"}}></i></a>
                         </div>
                     </div>
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <div className="card">
-                        <img src={letsGetOutPic} className="card-img-top" alt="Car on the road" />
+                    <div className="card" style={{backgroundColor: "#94bbb6"}}>
+                        <img src={letsGetOutPic} className="card-img-top" style={{width: '99%'}} alt="Car on the road" />
                         <div className="card-body">
                             <h5 className="card-title">Let's Get Outta Here!</h5>
-                            <a href="https://zackeryarsement.github.io/projectOne/" className="btn btn-primary">Application</a>
-                            <a href="https://github.com/ZackeryArsement/projectOne" className="btn btn-primary">Github</a>
+                            <a href="https://zackeryarsement.github.io/projectOne/" className="btn btn-warning">Website</a>
+                            <a href="https://github.com/ZackeryArsement/projectOne" className="btn" style={{backgroundColor: '#32f3af'}}> <i className="fab fa-github fa-1.5x" style={{color: "black"}}></i></a>
                         </div>
                     </div>
                 </Col>
                 <Col>
-                <div className="card">
-                        <img src={weatherPic} className="card-img-top" alt="Weather Dashboard homepage" />
+                <div className="card" style={{backgroundColor: "#94bbb6"}}>
+                        <img src={weatherPic} className="card-img-top" style={{width: '99%'}} alt="Weather Dashboard homepage" />
                         <div className="card-body">
                             <h5 className="card-title">Weather Dashboard</h5>
-                            <a href="https://jehulie.github.io/Weather-Dashboard/" className="btn btn-primary">Application</a>
-                            <a href="https://github.com/jehulie/Weather-Dashboard" className="btn btn-primary">Github</a>
+                            <a href="https://jehulie.github.io/Weather-Dashboard/" className="btn btn-warning">Website</a>
+                            <a href="https://github.com/jehulie/Weather-Dashboard" className="btn" style={{backgroundColor: '#32f3af'}}><i className="fab fa-github fa-1.5x" style={{color: "black"}}></i></a>
                         </div>
                     </div>
                 </Col>

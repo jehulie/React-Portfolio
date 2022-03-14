@@ -16,7 +16,7 @@ const About = () => {
                </figure>
             </div>
             <div className="col bio-box">
-               <ul id="bio" style={{fontSize:'1.75rem', margin: "40px"}}>
+               <ul id="bio" style={{fontSize:'1.75rem', fontWeight: 'bold', color:'#484e4c', margin: "40px"}}>
                   <li>Designs for Multimodal Fieldwork.</li>
                   <br/>
                      <li> Anthropology for the Web 2.0. </li>
