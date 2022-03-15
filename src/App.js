@@ -19,6 +19,7 @@ function App () {
                     <Route path="/work" element = {<Work />} />
                     <Route path="/contact" element = {<Contact />} />
                     <Route path="/resume" element = {<Resume />} />
+                    <Route path="/react-portfolio" element = {<About />} />
                 </Routes>
             </main>
             <Footer />
