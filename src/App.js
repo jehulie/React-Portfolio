@@ -5,7 +5,7 @@ import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import Resume from './components/Resume/Resume';
 import Footer from './components/Footer/Footer';
-import backgroundPic from '../src/assets/images/corrugated-white-medres.jpeg'
+import backgroundPic from './assets/images/corrugated-white-medres.jpeg'
 
 function App () {
     return (
