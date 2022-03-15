@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jehulie.github.io/React-Portfolio/static/css/main.81d1e14b.css",
-    "main.js": "/jehulie.github.io/React-Portfolio/static/js/main.2a054445.js",
+    "main.js": "/jehulie.github.io/React-Portfolio/static/js/main.cc3343f3.js",
     "static/media/curiosityCab.png": "/jehulie.github.io/React-Portfolio/static/media/curiosityCab.8c3de0ac2ffb2d765355.png",
     "static/media/1-Logistics-Covid.png": "/jehulie.github.io/React-Portfolio/static/media/1-Logistics-Covid.5465df14ae450104059a.png",
     "static/media/Weather-Dashboard.png": "/jehulie.github.io/React-Portfolio/static/media/Weather-Dashboard.cb1ebf8ba1ab17561823.png",
@@ -13,10 +13,10 @@
     "static/media/Banner-Warehouse-Ceiling.jpeg": "/jehulie.github.io/React-Portfolio/static/media/Banner-Warehouse-Ceiling.757ba59cd6efd9c8fff6.jpeg",
     "index.html": "/jehulie.github.io/React-Portfolio/index.html",
     "main.81d1e14b.css.map": "/jehulie.github.io/React-Portfolio/static/css/main.81d1e14b.css.map",
-    "main.2a054445.js.map": "/jehulie.github.io/React-Portfolio/static/js/main.2a054445.js.map"
+    "main.cc3343f3.js.map": "/jehulie.github.io/React-Portfolio/static/js/main.cc3343f3.js.map"
   },
   "entrypoints": [
     "static/css/main.81d1e14b.css",
-    "static/js/main.2a054445.js"
+    "static/js/main.cc3343f3.js"
   ]
 }
