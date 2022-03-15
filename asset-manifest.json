@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.54250d4c.css",
-    "main.js": "./static/js/main.f35978ba.js",
+    "main.js": "./static/js/main.a3547da6.js",
     "static/media/curiosityCab.png": "./static/media/curiosityCab.8c3de0ac2ffb2d765355.png",
     "static/media/1-Logistics-Covid.png": "./static/media/1-Logistics-Covid.5465df14ae450104059a.png",
     "static/media/Weather-Dashboard.png": "./static/media/Weather-Dashboard.cb1ebf8ba1ab17561823.png",
@@ -13,10 +13,10 @@
     "static/media/Banner-Warehouse-Ceiling.jpeg": "./static/media/Banner-Warehouse-Ceiling.757ba59cd6efd9c8fff6.jpeg",
     "index.html": "./index.html",
     "main.54250d4c.css.map": "./static/css/main.54250d4c.css.map",
-    "main.f35978ba.js.map": "./static/js/main.f35978ba.js.map"
+    "main.a3547da6.js.map": "./static/js/main.a3547da6.js.map"
   },
   "entrypoints": [
     "static/css/main.54250d4c.css",
-    "static/js/main.f35978ba.js"
+    "static/js/main.a3547da6.js"
   ]
 }
