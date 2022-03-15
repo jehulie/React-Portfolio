@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jehulie.github.io/react-portfolio/static/css/main.126dc9d6.css",
-    "main.js": "/jehulie.github.io/react-portfolio/static/js/main.0338aec9.js",
-    "static/media/curiosityCab.png": "/jehulie.github.io/react-portfolio/static/media/curiosityCab.8c3de0ac2ffb2d765355.png",
-    "static/media/1-Logistics-Covid.png": "/jehulie.github.io/react-portfolio/static/media/1-Logistics-Covid.5465df14ae450104059a.png",
-    "static/media/Weather-Dashboard.png": "/jehulie.github.io/react-portfolio/static/media/Weather-Dashboard.cb1ebf8ba1ab17561823.png",
-    "static/media/jchu.gif": "/jehulie.github.io/react-portfolio/static/media/jchu.bb7777323d33720348c6.gif",
-    "static/media/2-Box-Tetris.jpg": "/jehulie.github.io/react-portfolio/static/media/2-Box-Tetris.9e4287818efa45f96659.jpg",
-    "static/media/daytrip1-resized.jpeg": "/jehulie.github.io/react-portfolio/static/media/daytrip1-resized.563305a69276b49538ee.jpeg",
-    "static/media/corrugated-white-medres.jpeg": "/jehulie.github.io/react-portfolio/static/media/corrugated-white-medres.c03f0687bbf7bd94d43d.jpeg",
-    "static/media/3-Roadsides-Icons.jpeg": "/jehulie.github.io/react-portfolio/static/media/3-Roadsides-Icons.e56975f45736b25f798e.jpeg",
-    "static/media/Banner-Warehouse-Ceiling.jpeg": "/jehulie.github.io/react-portfolio/static/media/Banner-Warehouse-Ceiling.757ba59cd6efd9c8fff6.jpeg",
-    "index.html": "/jehulie.github.io/react-portfolio/index.html",
-    "main.126dc9d6.css.map": "/jehulie.github.io/react-portfolio/static/css/main.126dc9d6.css.map",
-    "main.0338aec9.js.map": "/jehulie.github.io/react-portfolio/static/js/main.0338aec9.js.map"
+    "main.css": "./static/css/main.54250d4c.css",
+    "main.js": "./static/js/main.f35978ba.js",
+    "static/media/curiosityCab.png": "./static/media/curiosityCab.8c3de0ac2ffb2d765355.png",
+    "static/media/1-Logistics-Covid.png": "./static/media/1-Logistics-Covid.5465df14ae450104059a.png",
+    "static/media/Weather-Dashboard.png": "./static/media/Weather-Dashboard.cb1ebf8ba1ab17561823.png",
+    "static/media/jchu.gif": "./static/media/jchu.bb7777323d33720348c6.gif",
+    "static/media/2-Box-Tetris.jpg": "./static/media/2-Box-Tetris.9e4287818efa45f96659.jpg",
+    "static/media/daytrip1-resized.jpeg": "./static/media/daytrip1-resized.563305a69276b49538ee.jpeg",
+    "static/media/corrugated-white-medres.jpeg": "./static/media/corrugated-white-medres.c03f0687bbf7bd94d43d.jpeg",
+    "static/media/3-Roadsides-Icons.jpeg": "./static/media/3-Roadsides-Icons.e56975f45736b25f798e.jpeg",
+    "static/media/Banner-Warehouse-Ceiling.jpeg": "./static/media/Banner-Warehouse-Ceiling.757ba59cd6efd9c8fff6.jpeg",
+    "index.html": "./index.html",
+    "main.54250d4c.css.map": "./static/css/main.54250d4c.css.map",
+    "main.f35978ba.js.map": "./static/js/main.f35978ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.126dc9d6.css",
-    "static/js/main.0338aec9.js"
+    "static/css/main.54250d4c.css",
+    "static/js/main.f35978ba.js"
   ]
 }
